@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import type { LocalizedText, Nickname } from '../engine/types'
 import type { Outcome } from '../engine/outcome'
 import { encodeOutcome } from '../engine/share'
@@ -11,20 +10,18 @@ interface Props {
   onRestart: () => void
 }
 
-/** A 黑称 (roast nickname): masked with ⬛ blocks, revealed on hover (title) or click. */
-function HeiNick({ text, label }: { text: string; label: string }) {
-  const [show, setShow] = useState(false)
+/** A 黑称 (roast nickname): a black-on-black bar; the text turns white on hover. */
+function HeiNick({ text, label, tooltip }: { text: string; label: string; tooltip: string }) {
   return (
-    <button
-      title={text}
-      onClick={() => setShow((s) => !s)}
-      className="inline-flex items-center gap-1 rounded-full bg-neutral-200/70 px-3 py-1 text-sm transition hover:bg-neutral-200"
-    >
-      <span className="font-medium tracking-tight text-neutral-700">
-        {show ? text : '⬛'.repeat(Math.min(text.length, 4))}
+    <span className="inline-flex items-center gap-1">
+      <span
+        title={tooltip}
+        className="cursor-help rounded bg-black px-2 py-0.5 text-sm font-medium text-black transition-colors hover:text-white"
+      >
+        {text}
       </span>
       <span className="rounded bg-neutral-400/40 px-1 text-[10px] font-semibold text-neutral-600">{label}</span>
-    </button>
+    </span>
   )
 }
 
@@ -34,7 +31,7 @@ function Nicknames({ nicknames }: { nicknames: Nickname[] }) {
     <div className="mt-4 flex flex-wrap justify-center gap-2">
       {nicknames.map((n, i) =>
         n.hei ? (
-          <HeiNick key={i} text={tx(n.text)} label={t('heiTag')} />
+          <HeiNick key={i} text={tx(n.text)} label={t('heiTag')} tooltip={t('heiTooltip')} />
         ) : (
           <span key={i} className="rounded-full bg-neutral-100 px-3 py-1 text-sm text-neutral-600">
             {tx(n.text)}

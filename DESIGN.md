@@ -73,8 +73,8 @@ glob-loaded). All text is bilingual with a fallback.
 
 ## v1 scope
 
-Lean & playable: ~6 chapters (with role/flag/trait gates), ~8 legends across all
-four roles, 4 meme endings. Designed to expand by dropping in JSON — see the
+8 chapters (with role/flag/trait gates), 16 legends across all four roles, and 8
+meme endings for the troll paths. Designed to expand by dropping in JSON — see the
 README's scenario-bank table.
 
 ## Tone & safety

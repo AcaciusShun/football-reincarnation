@@ -1,0 +1,44 @@
+{
+  "id": "celebration",
+  "seq": 6,
+  "variants": [
+    {
+      "text": {
+        "zh": "你打进了一粒载入史册的进球，全场镜头都对准了你……",
+        "en": "You've scored a goal for the history books; every camera is on you…"
+      },
+      "choices": [
+        {
+          "id": "siuu",
+          "label": { "zh": "腾空转体，落地振臂怒吼 SIUUU", "en": "Leap, spin, land and roar — SIUUU" },
+          "note": { "zh": "C罗的标志性庆祝 —— 致敬 C罗", "en": "Ronaldo's signature celebration" },
+          "background": {
+            "zh": "C罗的「SIUUU」庆祝自 2013 年起成为标志，腾空转体、落地振臂，如今是全球争相模仿的动作。",
+            "en": "Ronaldo's 'SIUUU' became iconic from 2013 — the leap, the spin, the arms — now copied the world over."
+          },
+          "effect": { "flair": 1.5 }
+        },
+        {
+          "id": "whyalwaysme",
+          "label": { "zh": "面无表情掀开球衣，露出「Why Always Me」", "en": "Lift your shirt, deadpan, to reveal 'Why Always Me'" },
+          "note": { "zh": "致敬巴洛特利 2011 曼市德比", "en": "Balotelli, 2011 Manchester derby" },
+          "background": {
+            "zh": "2011 年曼市德比，巴洛特利进球后面无表情掀开球衣，露出内搭的「Why Always Me」，成为永恒名场面。",
+            "en": "In the 2011 derby Balotelli scored, then deadpan revealed an undershirt reading 'Why Always Me' — an instant classic."
+          },
+          "effect": { "flair": 1, "composure": 0.5 }
+        },
+        {
+          "id": "humble",
+          "label": { "zh": "跑向角旗，安静地指向天空，把进球献给家人", "en": "Run to the corner flag, point quietly to the sky, dedicate it to family" },
+          "effect": { "flair": -1, "loyalty": 0.5 }
+        },
+        {
+          "id": "shirtoff",
+          "label": { "zh": "脱衣狂奔绕场一周，喜提一张黄牌", "en": "Whip your shirt off, sprint a lap, collect a yellow card" },
+          "effect": { "flair": 1, "composure": -0.5 }
+        }
+      ]
+    }
+  ]
+}
