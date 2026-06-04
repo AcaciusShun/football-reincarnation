@@ -1,0 +1,8 @@
+{
+  "id": "blooper",
+  "title": { "zh": "五大囧常驻嘉宾", "en": "Blooper-Reel Regular" },
+  "blurb": { "zh": "你的名字常年霸榜各种『足坛搞笑集锦』，每一次大场面都贡献了素材。心态有点崩。", "en": "A permanent fixture on every 'football fails' compilation — every big stage, you supplied the clip. The vibes are… shaky." },
+  "quote": { "zh": "镜头能不能别给我？", "en": "Can the camera please look away?" },
+  "when": { "axisMax": { "composure": -1 } },
+  "priority": 1
+}

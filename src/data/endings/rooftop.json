@@ -1,0 +1,8 @@
+{
+  "id": "rooftop",
+  "title": { "zh": "天台终身 VIP", "en": "Rooftop Lifetime VIP" },
+  "blurb": { "zh": "关键时刻总是你掉链子，球迷为你专门在天台留了个 VIP 位。心理素质，约等于零。", "en": "You bottle every big moment so reliably the fans saved you a VIP spot on the ledge. Nerves of… tissue paper." },
+  "quote": { "zh": "退！钱！", "en": "Refund! Refund!" },
+  "when": { "axisMax": { "composure": -1.8 } },
+  "priority": 4
+}

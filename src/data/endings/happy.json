@@ -1,0 +1,8 @@
+{
+  "id": "happy",
+  "title": { "zh": "快乐就好", "en": "Just Here For Fun" },
+  "blurb": { "zh": "过人五个、进球零个，奖杯柜空空、集锦却有十亿播放。但你是真的快乐啊。", "en": "Five men beaten, zero goals scored; an empty trophy cabinet but a billion views. And honestly? You're having a blast." },
+  "quote": { "zh": "开心，最重要。", "en": "Having fun — that's what matters." },
+  "when": { "axisMin": { "flair": 2 }, "axisMax": { "talent": 0.3 } },
+  "priority": 2
+}

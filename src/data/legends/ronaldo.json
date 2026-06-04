@@ -1,0 +1,13 @@
+{
+  "id": "ronaldo",
+  "name": { "zh": "克里斯蒂亚诺·罗纳尔多", "en": "Cristiano Ronaldo" },
+  "role": "FW",
+  "vec": { "talent": -0.6, "guile": -0.2, "loyalty": -0.3, "composure": 0.9, "flair": 1 },
+  "title": { "zh": "卷王 GOAT", "en": "The Machine" },
+  "moment": { "zh": "把天赋练成自律，叉腿罚球、倒钩、SIUUU 写满职业生涯。", "en": "Turned talent into ruthless discipline — the stance, the bicycle kick, the SIUUU." },
+  "quote": { "zh": "SIUUU！", "en": "SIUUU!" },
+  "honors": [
+    { "zh": "5 座金球奖", "en": "5× Ballon d'Or" },
+    { "zh": "5 座欧冠 · 欧洲杯冠军（2016）", "en": "5× Champions League · Euro 2016" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "maradona",
+  "name": { "zh": "迭戈·马拉多纳", "en": "Diego Maradona" },
+  "role": "FW",
+  "vec": { "talent": 1, "guile": 1, "loyalty": 0.2, "composure": 0.8, "flair": 1 },
+  "title": { "zh": "上帝之手·一代球王", "en": "The Hand of God" },
+  "moment": { "zh": "1986 年对英格兰，先用手、再单骑闯关——魔鬼与天使在四分钟内同台。", "en": "vs England, 1986: the Hand of God, then the Goal of the Century — devil and angel in four minutes." },
+  "quote": { "zh": "那是一点点上帝之手，一点点马拉多纳的头。", "en": "A little of the hand of God, a little of Maradona's head." },
+  "honors": [{ "zh": "世界杯冠军（1986）", "en": "World Cup winner (1986)" }]
+}

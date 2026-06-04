@@ -1,0 +1,8 @@
+{
+  "id": "diver",
+  "title": { "zh": "假摔影帝", "en": "Oscar-Winning Diver" },
+  "blurb": { "zh": "手球、咬人、假摔、钻空子——你把足球踢成了一门表演艺术，裁判是你最大的对手。", "en": "Handballs, bites, tumbles, loopholes — you turned football into performance art, with the referee as your true rival." },
+  "quote": { "zh": "这球，我能拿奥斯卡。", "en": "That dive? Give me the Oscar." },
+  "when": { "axisMin": { "guile": 2 } },
+  "priority": 3
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ramos",
+  "name": { "zh": "塞尔吉奥·拉莫斯", "en": "Sergio Ramos" },
+  "role": "DF",
+  "vec": { "talent": 0.2, "guile": 1, "loyalty": 0.3, "composure": 0.9, "flair": 0.8 },
+  "title": { "zh": "红牌王·92 分钟", "en": "Mr. 92:48" },
+  "moment": { "zh": "2014 年欧冠决赛第 92 分钟头球绝平，黑红牌纪录也照样刷。", "en": "The 92nd-minute equaliser in the 2014 final — and a record stack of red cards to match." },
+  "quote": { "zh": "禁区里，我说了算。", "en": "In this box, I make the rules." },
+  "honors": [
+    { "zh": "世界杯冠军（2010）", "en": "World Cup winner (2010)" },
+    { "zh": "4 座欧冠 · 红牌纪录保持者", "en": "4× Champions League · red-card record holder" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "maldini",
+  "name": { "zh": "保罗·马尔蒂尼", "en": "Paolo Maldini" },
+  "role": "DF",
+  "vec": { "talent": 0.5, "guile": -0.4, "loyalty": 1, "composure": 0.7, "flair": -0.2 },
+  "title": { "zh": "一人一城的优雅", "en": "One Club, One Life" },
+  "moment": { "zh": "25 年只为 AC 米兰，把防守踢成艺术，把忠诚踢成传奇。", "en": "25 years, one club. Defending as an art form; loyalty as a legend." },
+  "quote": { "zh": "穿上这件球衣，就是一生。", "en": "You wear this shirt for life." },
+  "honors": [{ "zh": "5 座欧冠 · 米兰队史传奇", "en": "5× Champions League · Milan icon" }]
+}

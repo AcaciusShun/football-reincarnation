@@ -1,0 +1,10 @@
+{
+  "id": "kahn",
+  "name": { "zh": "奥利弗·卡恩", "en": "Oliver Kahn" },
+  "role": "GK",
+  "vec": { "talent": -0.2, "guile": 0.2, "loyalty": 0.5, "composure": 1, "flair": 0.8 },
+  "title": { "zh": "狂暴的泰坦", "en": "The Titan" },
+  "moment": { "zh": "2002 年几乎以一己之力把德国扛进决赛，怒吼着抓队友领子。", "en": "Almost single-handedly dragged Germany to the 2002 final — roaring, grabbing teammates by the collar." },
+  "quote": { "zh": "Weiter！（继续！）", "en": "Weiter! (Keep going!)" },
+  "honors": [{ "zh": "世界杯金球奖（2002）· 三届世界最佳门将", "en": "World Cup Golden Ball (2002) · 3× Best Keeper" }]
+}

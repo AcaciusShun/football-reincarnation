@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pitch: #047857;
+  --color-pitch-dark: #064e3b;
+  --color-gold: #b45309;
+}
+
+@layer base {
+  body {
+    @apply bg-neutral-50 text-neutral-900 antialiased;
+  }
+}
