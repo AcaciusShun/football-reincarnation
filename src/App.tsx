@@ -59,7 +59,7 @@ function Shell() {
       <header className="bg-pitch text-white">
         <div className="mx-auto flex max-w-xl items-center justify-between px-5 py-3">
           <button onClick={restart} className="text-lg font-extrabold tracking-tight">
-            ⚽️🔄 {t('appName')}
+            ⚽️ {t('appName')}
           </button>
           <div className="flex items-center gap-3">
             <a

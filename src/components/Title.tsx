@@ -3,8 +3,8 @@ import { useI18n } from '../i18n'
 export default function Title({ onStart }: { onStart: () => void }) {
   const { t } = useI18n()
   return (
-    <section className="mx-auto max-w-xl px-6 py-16 text-center">
-      <div className="mb-4 text-6xl">⚽️🔄</div>
+    <section className="mx-auto max-w-2xl px-6 py-16 text-center">
+      <div className="mb-4 text-6xl">⚽️</div>
       <h1 className="text-4xl font-extrabold tracking-tight text-pitch-dark sm:text-5xl">{t('appName')}</h1>
       <p className="mt-3 text-lg font-medium text-neutral-700">{t('tagline')}</p>
       <p className="mt-4 text-neutral-500">{t('intro')}</p>
@@ -14,6 +14,7 @@ export default function Title({ onStart }: { onStart: () => void }) {
       >
         {t('start')}
       </button>
+      <p className="mt-4 text-sm text-neutral-400">{t('hook')}</p>
     </section>
   )
 }

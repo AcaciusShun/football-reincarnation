@@ -56,8 +56,8 @@ export default function Result({ outcome, moments, flops, onRestart }: Props) {
   const shareUrl = `${window.location.origin}${window.location.pathname}#${encodeOutcome(outcome)}`
   const shareText =
     locale === 'zh'
-      ? `我投胎成了「${name}」！来足坛投胎模拟器看你会成为谁 ⚽️🔄 #足坛投胎模拟器`
-      : `I was reborn as ${name}! Find out who you'd become ⚽️🔄 #FootballReincarnation`
+      ? `我投胎成了「${name}」！来足坛投胎模拟器看你会成为谁 ⚽️ #足坛投胎模拟器`
+      : `I was reborn as ${name}! Find out who you'd become ⚽️ #FootballReincarnation`
 
   return (
     <section className="mx-auto max-w-xl px-6 py-12 text-center">

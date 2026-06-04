@@ -1,4 +1,4 @@
-# ⚽️🔄 Football Reincarnation · 足坛投胎模拟器
+# ⚽️ Football Reincarnation · 足坛投胎模拟器
 
 > **▶︎ 在线试玩 · Play it → https://acaciusshun.github.io/football-reincarnation/**
 
