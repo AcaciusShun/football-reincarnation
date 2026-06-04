@@ -1,5 +1,9 @@
 # ⚽️🔄 Football Reincarnation · 足坛投胎模拟器
 
+> **▶︎ 在线试玩 · Play it → https://acaciusshun.github.io/football-reincarnation/**
+
+![足坛投胎模拟器](public/og.png)
+
 **Travel through football's iconic moments and find out who you'd become.**
 
 A short, branching what-if: each choice nudges hidden trait axes (and your role),
@@ -46,6 +50,12 @@ All user-facing text is `{ "zh": "…", "en": "…" }`; a fallback renders the o
 language if one is missing.
 
 Run `npm run build` before a PR to confirm it still type-checks.
+
+## Deploy
+
+Pushing to `main` auto-builds and deploys to **GitHub Pages** via
+[`.github/workflows/deploy.yml`](.github/workflows/deploy.yml). The Vite `base` is
+`/football-reincarnation/`, and `public/og.png` is the social preview image.
 
 ## License
 

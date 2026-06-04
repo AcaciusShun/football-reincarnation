@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import type { LocalizedText, Nickname } from '../engine/types'
 import type { Outcome } from '../engine/outcome'
 import { encodeOutcome } from '../engine/share'
@@ -13,14 +14,19 @@ interface Props {
 
 /** A 黑称 (roast nickname): a black-on-black bar; the text turns white on hover. */
 function HeiNick({ text, label, tooltip }: { text: string; label: string; tooltip: string }) {
+  const [revealed, setRevealed] = useState(false)
   return (
     <span className="inline-flex items-center gap-1">
-      <span
+      <button
+        type="button"
         title={tooltip}
-        className="cursor-help rounded bg-black px-2 py-0.5 text-sm font-medium text-black transition-colors hover:text-white"
+        onClick={() => setRevealed((r) => !r)}
+        className={`cursor-help rounded bg-black px-2 py-0.5 text-sm font-medium transition-colors hover:text-white ${
+          revealed ? 'text-white' : 'text-black'
+        }`}
       >
         {text}
-      </span>
+      </button>
       <span className="rounded bg-neutral-400/40 px-1 text-[10px] font-semibold text-neutral-600">{label}</span>
     </span>
   )
@@ -50,8 +56,8 @@ export default function Result({ outcome, moments, flops, onRestart }: Props) {
   const shareUrl = `${window.location.origin}${window.location.pathname}#${encodeOutcome(outcome)}`
   const shareText =
     locale === 'zh'
-      ? `我投胎成了「${name}」！来足坛投胎模拟器看你会成为谁 ⚽️🔄`
-      : `I was reborn as ${name}! Find out who you'd become ⚽️🔄`
+      ? `我投胎成了「${name}」！来足坛投胎模拟器看你会成为谁 ⚽️🔄 #足坛投胎模拟器`
+      : `I was reborn as ${name}! Find out who you'd become ⚽️🔄 #FootballReincarnation`
 
   return (
     <section className="mx-auto max-w-xl px-6 py-12 text-center">
