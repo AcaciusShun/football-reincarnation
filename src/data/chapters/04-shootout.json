@@ -36,6 +36,10 @@
           "effect": {
             "flair": 1.5,
             "composure": 1
+          },
+          "background": {
+            "zh": "1976 年欧洲杯决赛，捷克斯洛伐克的帕年卡用轻吊点球绝杀西德，这种罚法从此以他命名；皮尔洛、托蒂都是大师。",
+            "en": "In the 1976 Euro final Panenka chipped the winning penalty down the middle; the technique now bears his name — Pirlo and Totti mastered it too."
           }
         },
         {
@@ -80,6 +84,10 @@
           "effect": {
             "flair": 1.5,
             "composure": 1
+          },
+          "background": {
+            "zh": "1976 年欧洲杯决赛，捷克斯洛伐克的帕年卡用轻吊点球绝杀西德，这种罚法从此以他命名；皮尔洛、托蒂都是大师。",
+            "en": "In the 1976 Euro final Panenka chipped the winning penalty down the middle; the technique now bears his name — Pirlo and Totti mastered it too."
           }
         },
         {
@@ -104,6 +112,10 @@
           },
           "effect": {
             "composure": -1.5
+          },
+          "background": {
+            "zh": "1994 年世界杯决赛点球大战，巴乔将最后一罚打飞，意大利负于巴西，留下足坛最心碎的背影之一。",
+            "en": "In the 1994 World Cup final shootout Baggio skied the decisive penalty; Italy lost to Brazil — one of football’s most heartbreaking images."
           }
         }
       ]

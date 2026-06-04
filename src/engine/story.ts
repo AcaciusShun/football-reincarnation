@@ -41,6 +41,8 @@ export function applyChoice(s: GameState, choice: Choice): GameState {
     flags: choice.setFlag && !s.flags.includes(choice.setFlag) ? [...s.flags, choice.setFlag] : s.flags,
     step: s.step + 1,
     history: [...s.history, choice.id],
-    moments: choice.note ? [...s.moments, choice.note] : s.moments,
+    moments: choice.note
+      ? [...s.moments, { note: choice.note, background: choice.background }]
+      : s.moments,
   }
 }

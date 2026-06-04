@@ -1,0 +1,14 @@
+{
+  "id": "ronaldinho",
+  "name": { "zh": "罗纳尔迪尼奥", "en": "Ronaldinho" },
+  "role": "FW",
+  "vec": { "talent": 1, "guile": -0.1, "loyalty": -0.2, "composure": 0.5, "flair": 1 },
+  "title": { "zh": "快乐足球的微笑", "en": "The Smile of Joga Bonito" },
+  "moment": { "zh": "牛尾巴、弹地半场吊射、no-look 传球 —— 他把足球踢成了一场永不落幕的表演。", "en": "Flip-flaps, a bouncing halfway-line lob, no-look passes — he turned football into a never-ending show." },
+  "quote": { "zh": "足球，是要带着微笑去踢的。", "en": "Football is meant to be played with a smile." },
+  "nicknames": [{ "text": { "zh": "小罗", "en": "Ronnie" } }],
+  "honors": [
+    { "zh": "世界杯冠军（2002）", "en": "World Cup winner (2002)" },
+    { "zh": "金球奖（2005）· 欧冠冠军（2006）", "en": "Ballon d'Or (2005) · Champions League (2006)" }
+  ]
+}

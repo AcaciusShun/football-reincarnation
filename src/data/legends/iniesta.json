@@ -1,0 +1,14 @@
+{
+  "id": "iniesta",
+  "name": { "zh": "安德烈斯·伊涅斯塔", "en": "Andrés Iniesta" },
+  "role": "MF",
+  "vec": { "talent": 0.7, "guile": -0.3, "loyalty": 0.8, "composure": 0.9, "flair": 0.1 },
+  "title": { "zh": "决赛先生", "en": "Mr. Final" },
+  "moment": { "zh": "2010 年世界杯决赛加时绝杀荷兰，安静的天才在最大的舞台一锤定音。", "en": "The extra-time winner in the 2010 World Cup final — the quiet genius decided it on the biggest stage." },
+  "quote": { "zh": "安静地，做最重要的那个人。", "en": "Quietly, be the one who matters most." },
+  "nicknames": [{ "text": { "zh": "小白", "en": "Don Andrés" } }],
+  "honors": [
+    { "zh": "世界杯冠军（2010）", "en": "World Cup winner (2010)" },
+    { "zh": "4 座欧冠 · 2 届欧洲杯", "en": "4× Champions League · 2× Euro" }
+  ]
+}

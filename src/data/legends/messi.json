@@ -1,13 +1,51 @@
 {
   "id": "messi",
-  "name": { "zh": "莱昂内尔·梅西", "en": "Lionel Messi" },
+  "name": {
+    "zh": "莱昂内尔·梅西",
+    "en": "Lionel Messi"
+  },
   "role": "FW",
-  "vec": { "talent": 0.9, "guile": -0.2, "loyalty": 0.3, "composure": 0.8, "flair": 0.2 },
-  "title": { "zh": "一代球王", "en": "The GOAT" },
-  "moment": { "zh": "2007 年复刻马拉多纳世纪进球，2022 年终捧大力神杯。", "en": "Re-created Maradona's Goal of the Century in 2007; finally lifted the World Cup in 2022." },
-  "quote": { "zh": "天赋是上帝的礼物，但你得自己去兑现。", "en": "Talent is a gift — but you still have to deliver it." },
+  "vec": {
+    "talent": 0.9,
+    "guile": -0.2,
+    "loyalty": 0.3,
+    "composure": 0.8,
+    "flair": 0.2
+  },
+  "title": {
+    "zh": "一代球王",
+    "en": "The GOAT"
+  },
+  "moment": {
+    "zh": "2007 年复刻马拉多纳世纪进球，2022 年终捧大力神杯。",
+    "en": "Re-created Maradona's Goal of the Century in 2007; finally lifted the World Cup in 2022."
+  },
+  "quote": {
+    "zh": "天赋是上帝的礼物，但你得自己去兑现。",
+    "en": "Talent is a gift — but you still have to deliver it."
+  },
   "honors": [
-    { "zh": "世界杯冠军（2022）", "en": "World Cup winner (2022)" },
-    { "zh": "8 座金球奖", "en": "8× Ballon d'Or" }
+    {
+      "zh": "世界杯冠军（2022）",
+      "en": "World Cup winner (2022)"
+    },
+    {
+      "zh": "8 座金球奖",
+      "en": "8× Ballon d'Or"
+    }
+  ],
+  "nicknames": [
+    {
+      "text": {
+        "zh": "球王",
+        "en": "The King"
+      }
+    },
+    {
+      "text": {
+        "zh": "跳蚤",
+        "en": "La Pulga"
+      }
+    }
   ]
 }

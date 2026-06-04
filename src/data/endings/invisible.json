@@ -1,0 +1,8 @@
+{
+  "id": "invisible",
+  "title": { "zh": "更衣室隐形人", "en": "The Invisible Man" },
+  "blurb": { "zh": "从不庆祝、采访就三个字、集锦里找不到你——存在感稀薄到队友常常记不住你的名字。", "en": "Never celebrates, three words per interview, never in the highlight reel — so faint your own teammates forget your name." },
+  "quote": { "zh": "……（沉默）。", "en": "… (silence)." },
+  "when": { "axisMax": { "flair": -1.3, "composure": -0.2 } },
+  "priority": 1
+}

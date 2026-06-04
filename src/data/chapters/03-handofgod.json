@@ -22,7 +22,11 @@
             "guile": 1.5,
             "flair": 0.5
           },
-          "setFlag": "cheater"
+          "setFlag": "cheater",
+          "background": {
+            "zh": "同一场比赛，马拉多纳用手把球打进却被判有效，赛后称「这是上帝之手」，成为足球史最著名的争议进球。",
+            "en": "In that same match, Maradona punched the ball in — it stood — and called it 'the Hand of God', football's most famous controversial goal."
+          }
         },
         {
           "id": "honest",
@@ -59,7 +63,11 @@
             "guile": 1,
             "composure": -0.5
           },
-          "setFlag": "biter"
+          "setFlag": "biter",
+          "background": {
+            "zh": "苏亚雷斯职业生涯曾三次在场上咬对手（2010、2013、2014），天才与争议并存。",
+            "en": "Suárez bit opponents three times on the pitch (2010, 2013, 2014) — genius and controversy in one."
+          }
         }
       ]
     }

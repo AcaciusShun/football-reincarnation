@@ -1,10 +1,48 @@
 {
   "id": "gerrard",
-  "name": { "zh": "史蒂文·杰拉德", "en": "Steven Gerrard" },
+  "name": {
+    "zh": "史蒂文·杰拉德",
+    "en": "Steven Gerrard"
+  },
   "role": "MF",
-  "vec": { "talent": 0.2, "guile": -0.3, "loyalty": 1, "composure": 0.6, "flair": 0.2 },
-  "title": { "zh": "永远的红军队长", "en": "Captain, Forever Red" },
-  "moment": { "zh": "2005 年伊斯坦布尔之夜，0:3 落后亲手掀翻 AC 米兰。（那次滑倒？不许提。）", "en": "The Miracle of Istanbul, 2005 — dragged Liverpool back from 0–3. (The slip? We don't talk about the slip.)" },
-  "quote": { "zh": "稳住，我们能赢。", "en": "Hold the line — we can win this." },
-  "honors": [{ "zh": "欧冠冠军（2005）", "en": "Champions League winner (2005)" }]
+  "vec": {
+    "talent": 0.2,
+    "guile": -0.3,
+    "loyalty": 1,
+    "composure": 0.6,
+    "flair": 0.2
+  },
+  "title": {
+    "zh": "永远的红军队长",
+    "en": "Captain, Forever Red"
+  },
+  "moment": {
+    "zh": "2005 年伊斯坦布尔之夜，0:3 落后亲手掀翻 AC 米兰。（那次滑倒？不许提。）",
+    "en": "The Miracle of Istanbul, 2005 — dragged Liverpool back from 0–3. (The slip? We don't talk about the slip.)"
+  },
+  "quote": {
+    "zh": "稳住，我们能赢。",
+    "en": "Hold the line — we can win this."
+  },
+  "honors": [
+    {
+      "zh": "欧冠冠军（2005）",
+      "en": "Champions League winner (2005)"
+    }
+  ],
+  "nicknames": [
+    {
+      "text": {
+        "zh": "杰队",
+        "en": "The Captain"
+      }
+    },
+    {
+      "text": {
+        "zh": "滑跪",
+        "en": "The Slip"
+      },
+      "hei": true
+    }
+  ]
 }

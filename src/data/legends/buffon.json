@@ -1,0 +1,11 @@
+{
+  "id": "buffon",
+  "name": { "zh": "吉安路易吉·布冯", "en": "Gianluigi Buffon" },
+  "role": "GK",
+  "vec": { "talent": 0.3, "guile": -0.2, "loyalty": 0.8, "composure": 0.9, "flair": 0.3 },
+  "title": { "zh": "常青门神", "en": "The Eternal" },
+  "moment": { "zh": "2006 年世界杯近乎不可逾越，效力尤文二十余年，四十岁仍在扑救 —— 时间在他面前低头。", "en": "Near-unbeatable at the 2006 World Cup, two decades at Juventus, still flying at 40 — time bows to him." },
+  "quote": { "zh": "门将，是一支球队最后的尊严。", "en": "A goalkeeper is a team's last line of dignity." },
+  "nicknames": [{ "text": { "zh": "布教授", "en": "The Professor" } }],
+  "honors": [{ "zh": "世界杯冠军（2006）· 意甲传奇", "en": "World Cup winner (2006) · Serie A icon" }]
+}

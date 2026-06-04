@@ -30,6 +30,8 @@ export interface Choice {
   label: LocalizedText
   /** Opt-in explanation (jargon + homage), revealed on demand and recapped at the end. */
   note?: LocalizedText
+  /** Deeper real-world background for the move/moment — shown in the end recap. */
+  background?: LocalizedText
   effect?: Partial<Vec>
   setRole?: Role
   setFlag?: string
@@ -49,6 +51,12 @@ export interface Chapter {
   variants: Variant[]
 }
 
+/** A nickname; `hei` marks a 黑称 (roast nickname) — masked in the UI, revealed on demand. */
+export interface Nickname {
+  text: LocalizedText
+  hei?: boolean
+}
+
 export interface Legend {
   id: string
   name: LocalizedText
@@ -60,6 +68,7 @@ export interface Legend {
   moment: LocalizedText
   /** 梗台词 */
   quote: LocalizedText
+  nicknames?: Nickname[]
   honors?: LocalizedText[]
 }
 
@@ -81,6 +90,12 @@ export interface GameState {
   step: number
   /** chosen choice ids */
   history: string[]
-  /** explanations (homages) of chosen choices, for the end-of-run recap */
-  moments: LocalizedText[]
+  /** homages of chosen choices (note + background), for the end-of-run recap */
+  moments: Moment[]
+}
+
+/** A recreated moment, accumulated for the result-page recap. */
+export interface Moment {
+  note: LocalizedText
+  background?: LocalizedText
 }

@@ -1,0 +1,11 @@
+{
+  "id": "ibrahimovic",
+  "name": { "zh": "兹拉坦·伊布拉希莫维奇", "en": "Zlatan Ibrahimović" },
+  "role": "FW",
+  "vec": { "talent": 0.6, "guile": 0.2, "loyalty": -1, "composure": 0.7, "flair": 1 },
+  "title": { "zh": "自封的大帝", "en": "The Self-Made King" },
+  "moment": { "zh": "35 米外蝎子摆尾倒钩、辗转七国豪门、金句信手拈来 —— 自信本身就是他的招牌。", "en": "A 35-yard scorpion-kick, seven clubs across the continent, quotes for days — the swagger is the brand." },
+  "quote": { "zh": "狮子，是不会在意绵羊的看法的。", "en": "A lion doesn't concern himself with the opinion of sheep." },
+  "nicknames": [{ "text": { "zh": "伊布大帝", "en": "Zlatan" } }],
+  "honors": [{ "zh": "多国顶级联赛冠军", "en": "League titles across several countries" }]
+}

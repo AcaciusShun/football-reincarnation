@@ -1,4 +1,5 @@
-import type { LocalizedText } from '../engine/types'
+import { useState } from 'react'
+import type { LocalizedText, Nickname } from '../engine/types'
 import type { Outcome } from '../engine/outcome'
 import { encodeOutcome } from '../engine/share'
 import { useI18n } from '../i18n'
@@ -6,8 +7,42 @@ import ShareBar from './ShareBar'
 
 interface Props {
   outcome: Outcome
-  moments: LocalizedText[]
+  moments: { note: LocalizedText; background?: LocalizedText }[]
   onRestart: () => void
+}
+
+/** A 黑称 (roast nickname): masked with ⬛ blocks, revealed on hover (title) or click. */
+function HeiNick({ text, label }: { text: string; label: string }) {
+  const [show, setShow] = useState(false)
+  return (
+    <button
+      title={text}
+      onClick={() => setShow((s) => !s)}
+      className="inline-flex items-center gap-1 rounded-full bg-neutral-200/70 px-3 py-1 text-sm transition hover:bg-neutral-200"
+    >
+      <span className="font-medium tracking-tight text-neutral-700">
+        {show ? text : '⬛'.repeat(Math.min(text.length, 4))}
+      </span>
+      <span className="rounded bg-neutral-400/40 px-1 text-[10px] font-semibold text-neutral-600">{label}</span>
+    </button>
+  )
+}
+
+function Nicknames({ nicknames }: { nicknames: Nickname[] }) {
+  const { t, tx } = useI18n()
+  return (
+    <div className="mt-4 flex flex-wrap justify-center gap-2">
+      {nicknames.map((n, i) =>
+        n.hei ? (
+          <HeiNick key={i} text={tx(n.text)} label={t('heiTag')} />
+        ) : (
+          <span key={i} className="rounded-full bg-neutral-100 px-3 py-1 text-sm text-neutral-600">
+            {tx(n.text)}
+          </span>
+        ),
+      )}
+    </div>
+  )
 }
 
 export default function Result({ outcome, moments, onRestart }: Props) {
@@ -30,6 +65,10 @@ export default function Result({ outcome, moments, onRestart }: Props) {
           <div className="mt-3 inline-block rounded-full bg-gold/10 px-3 py-1 text-sm font-semibold text-gold">
             {tx(outcome.legend.title)}
           </div>
+
+          {outcome.legend.nicknames && outcome.legend.nicknames.length > 0 && (
+            <Nicknames nicknames={outcome.legend.nicknames} />
+          )}
 
           <h2 className="mb-2 mt-8 text-xs font-semibold uppercase tracking-wide text-neutral-400">{t('moment')}</h2>
           <p className="text-neutral-600">{tx(outcome.legend.moment)}</p>
@@ -63,11 +102,14 @@ export default function Result({ outcome, moments, onRestart }: Props) {
       {moments.length > 0 && (
         <div className="mt-10 rounded-2xl bg-neutral-100 p-5 text-left">
           <h2 className="mb-3 text-xs font-semibold uppercase tracking-wide text-neutral-500">{t('momentsTitle')}</h2>
-          <ul className="space-y-2 text-sm text-neutral-600">
+          <ul className="space-y-3">
             {moments.map((m, i) => (
-              <li key={i} className="flex gap-2">
-                <span className="shrink-0">💡</span>
-                <span>{tx(m)}</span>
+              <li key={i}>
+                <div className="flex gap-2 text-sm">
+                  <span className="shrink-0">💡</span>
+                  <span className="font-medium text-neutral-700">{tx(m.note)}</span>
+                </div>
+                {m.background && <p className="mt-1 pl-6 text-xs leading-relaxed text-neutral-500">{tx(m.background)}</p>}
               </li>
             ))}
           </ul>

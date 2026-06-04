@@ -1,0 +1,8 @@
+{
+  "id": "nomadflop",
+  "title": { "zh": "水货标王", "en": "Record-Fee Flop" },
+  "blurb": { "zh": "转会费一次次破纪录，球场表现一次次破大家的防——下家永远在路上。", "en": "Your transfer fee keeps breaking records; your performances keep breaking hearts. The next club is always calling." },
+  "quote": { "zh": "钱……到账了吗？", "en": "So… has the money cleared?" },
+  "when": { "axisMax": { "loyalty": -1.5, "composure": -0.3 } },
+  "priority": 3
+}

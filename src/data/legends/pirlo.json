@@ -1,0 +1,14 @@
+{
+  "id": "pirlo",
+  "name": { "zh": "安德烈亚·皮尔洛", "en": "Andrea Pirlo" },
+  "role": "MF",
+  "vec": { "talent": 0.7, "guile": 0.3, "loyalty": 0.1, "composure": 0.9, "flair": 0.6 },
+  "title": { "zh": "文艺复兴大师", "en": "The Maestro" },
+  "moment": { "zh": "2012 年欧洲杯一记勺子点球戏耍乔·哈特，胡子一捋，节奏尽在掌握。", "en": "A 2012 Euro Panenka that humiliated Joe Hart; one stroke of the beard, and the tempo is his." },
+  "quote": { "zh": "我用脑子踢球，腿只是执行。", "en": "I play with my head; the legs just follow." },
+  "nicknames": [{ "text": { "zh": "皮神", "en": "The Architect" } }],
+  "honors": [
+    { "zh": "世界杯冠军（2006）", "en": "World Cup winner (2006)" },
+    { "zh": "2 座欧冠", "en": "2× Champions League" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cannavaro",
+  "name": { "zh": "法比奥·卡纳瓦罗", "en": "Fabio Cannavaro" },
+  "role": "DF",
+  "vec": { "talent": 0.4, "guile": 0.3, "loyalty": 0.2, "composure": 0.9, "flair": 0.2 },
+  "title": { "zh": "柏林之墙", "en": "The Berlin Wall" },
+  "moment": { "zh": "2006 年世界杯铁血后防零封夺冠，以中后卫身份捧起金球奖 —— 史上罕见。", "en": "Anchored Italy's iron defence to the 2006 title and won the Ballon d'Or as a centre-back — almost unheard of." },
+  "quote": { "zh": "身高不是问题，时机才是一切。", "en": "Height isn't the problem — timing is everything." },
+  "nicknames": [{ "text": { "zh": "卡帅", "en": "Cannavaro" } }],
+  "honors": [
+    { "zh": "世界杯冠军（2006）", "en": "World Cup winner (2006)" },
+    { "zh": "金球奖（2006）", "en": "Ballon d'Or (2006)" }
+  ]
+}

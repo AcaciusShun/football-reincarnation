@@ -1,0 +1,11 @@
+{
+  "id": "neuer",
+  "name": { "zh": "曼努埃尔·诺伊尔", "en": "Manuel Neuer" },
+  "role": "GK",
+  "vec": { "talent": 0.4, "guile": 0.1, "loyalty": 0.7, "composure": 0.9, "flair": 0.7 },
+  "title": { "zh": "门卫始祖", "en": "The Sweeper-Keeper" },
+  "moment": { "zh": "2014 年世界杯化身「门卫」，频频冲出禁区像清道夫一样解围，重新定义了门将。", "en": "At the 2014 World Cup he became the 'sweeper-keeper', charging out like a libero — redefining the position." },
+  "quote": { "zh": "门将，也可以是进攻的第一发起者。", "en": "A keeper can be the first attacker, too." },
+  "nicknames": [{ "text": { "zh": "门卫", "en": "Sweeper-keeper" } }],
+  "honors": [{ "zh": "世界杯冠军（2014）· 多座欧冠", "en": "World Cup winner (2014) · multiple Champions Leagues" }]
+}

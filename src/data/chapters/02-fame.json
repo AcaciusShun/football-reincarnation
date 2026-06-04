@@ -24,6 +24,10 @@
           "effect": {
             "composure": 1,
             "flair": 0.5
+          },
+          "background": {
+            "zh": "诺伊尔把门将踢成了「门卫」——频繁出击像清道夫一样参与防守和组织，重新定义了现代门将。",
+            "en": "Neuer turned the goalkeeper into a 'sweeper-keeper', rushing out like a libero — redefining the modern keeper."
           }
         },
         {
@@ -69,6 +73,10 @@
           "effect": {
             "talent": 1.5,
             "flair": 1
+          },
+          "background": {
+            "zh": "1986 年世界杯，马拉多纳从中场连过 5 名英格兰球员破门，被誉为「世纪进球」；2007 年梅西对赫塔菲几乎完美复刻。",
+            "en": "1986 World Cup: Maradona dribbled past five England players from midfield — the 'Goal of the Century'. Messi nearly recreated it vs Getafe in 2007."
           }
         },
         {
@@ -96,6 +104,10 @@
           "effect": {
             "flair": 1.5,
             "talent": 0.5
+          },
+          "background": {
+            "zh": "罗纳尔迪尼奥以油炸丸子、牛尾巴等花式动作闻名，把足球踢成了表演，是「快乐足球」的代名词。",
+            "en": "Ronaldinho's elasticos and flip-flaps turned football into theatre — the very meaning of 'joga bonito'."
           }
         },
         {

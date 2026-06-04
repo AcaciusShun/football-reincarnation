@@ -1,0 +1,14 @@
+{
+  "id": "r9",
+  "name": { "zh": "罗纳尔多（大罗）", "en": "Ronaldo (R9)" },
+  "role": "FW",
+  "vec": { "talent": 1, "guile": 0, "loyalty": -0.3, "composure": 0.6, "flair": 0.8 },
+  "title": { "zh": "外星人", "en": "The Phenomenon" },
+  "moment": { "zh": "踏步过人、风一般的冲刺，伤病也挡不住他 —— 2002 年两球制胜，王者归来。", "en": "Stepovers, blistering pace, comebacks from career-threatening injury — two goals in the 2002 final sealed the redemption." },
+  "quote": { "zh": "我会用进球回答一切。", "en": "I answer everything with goals." },
+  "nicknames": [{ "text": { "zh": "外星人", "en": "The Phenomenon" } }, { "text": { "zh": "大罗", "en": "Big Ron" } }],
+  "honors": [
+    { "zh": "世界杯冠军（1994、2002）", "en": "World Cup winner (1994, 2002)" },
+    { "zh": "2 座金球奖", "en": "2× Ballon d'Or" }
+  ]
+}

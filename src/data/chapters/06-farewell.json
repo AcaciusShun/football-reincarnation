@@ -55,6 +55,10 @@
           "effect": {
             "talent": -0.5,
             "flair": 1
+          },
+          "background": {
+            "zh": "伊布与 C罗都在 40 岁前后仍在顶级联赛进球，诠释了什么叫「时间不败」。",
+            "en": "Both Ibrahimović and Ronaldo were still scoring in top leagues around 40 — defying time itself."
           }
         },
         {

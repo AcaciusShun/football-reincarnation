@@ -1,0 +1,8 @@
+{
+  "id": "niceguy",
+  "title": { "zh": "足坛老好人", "en": "Football's Mr. Nice Guy" },
+  "blurb": { "zh": "从不假摔、从不耍诈、绅士到底——结果总替别人背锅，奖杯却没你的份。", "en": "Never dives, never cheats, a gentleman to the end — and somehow always carries the can while the trophies go elsewhere." },
+  "quote": { "zh": "我……我没事，你们先走。", "en": "I'm… I'm fine, you all go on ahead." },
+  "when": { "axisMax": { "guile": -1.4, "flair": -1 } },
+  "priority": 2
+}

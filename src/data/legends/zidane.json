@@ -1,13 +1,45 @@
 {
   "id": "zidane",
-  "name": { "zh": "齐内丁·齐达内", "en": "Zinedine Zidane" },
+  "name": {
+    "zh": "齐内丁·齐达内",
+    "en": "Zinedine Zidane"
+  },
   "role": "MF",
-  "vec": { "talent": 0.8, "guile": 0.3, "loyalty": 0.2, "composure": 0.6, "flair": 0.7 },
-  "title": { "zh": "优雅与暴脾气", "en": "Grace & Fury" },
-  "moment": { "zh": "2002 年欧冠天外飞仙凌空斩；2006 年决赛一记头槌走进传说。", "en": "The 2002 Champions League volley; the 2006 final headbutt that became legend." },
-  "quote": { "zh": "有时候，头比脚更快。", "en": "Sometimes the head moves faster than the feet." },
+  "vec": {
+    "talent": 0.8,
+    "guile": 0.3,
+    "loyalty": 0.2,
+    "composure": 0.6,
+    "flair": 0.7
+  },
+  "title": {
+    "zh": "优雅与暴脾气",
+    "en": "Grace & Fury"
+  },
+  "moment": {
+    "zh": "2002 年欧冠天外飞仙凌空斩；2006 年决赛一记头槌走进传说。",
+    "en": "The 2002 Champions League volley; the 2006 final headbutt that became legend."
+  },
+  "quote": {
+    "zh": "有时候，头比脚更快。",
+    "en": "Sometimes the head moves faster than the feet."
+  },
   "honors": [
-    { "zh": "世界杯冠军（1998）", "en": "World Cup winner (1998)" },
-    { "zh": "欧冠冠军（2002）· 金球奖", "en": "Champions League (2002) · Ballon d'Or" }
+    {
+      "zh": "世界杯冠军（1998）",
+      "en": "World Cup winner (1998)"
+    },
+    {
+      "zh": "欧冠冠军（2002）· 金球奖",
+      "en": "Champions League (2002) · Ballon d'Or"
+    }
+  ],
+  "nicknames": [
+    {
+      "text": {
+        "zh": "齐祖",
+        "en": "Zizou"
+      }
+    }
   ]
 }

@@ -20,6 +20,10 @@
           },
           "effect": {
             "loyalty": 1.5
+          },
+          "background": {
+            "zh": "托蒂之于罗马、马尔蒂尼之于米兰——整个职业生涯只效力一家俱乐部，成为忠诚的象征。",
+            "en": "Totti at Roma, Maldini at Milan — one club for an entire career, the symbol of loyalty."
           }
         },
         {
@@ -46,6 +50,10 @@
           "effect": {
             "loyalty": -1.5,
             "flair": 1.5
+          },
+          "background": {
+            "zh": "伊布拉希莫维奇辗转阿贾克斯、尤文、国米、巴萨、米兰、巴黎、曼联等队，金句与自信同样出名。",
+            "en": "Ibrahimović passed through Ajax, Juve, Inter, Barça, Milan, PSG, United… his quotes as famous as his confidence."
           }
         },
         {
