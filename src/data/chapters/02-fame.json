@@ -3,7 +3,9 @@
   "seq": 2,
   "variants": [
     {
-      "when": { "role": "GK" },
+      "when": {
+        "role": "GK"
+      },
       "text": {
         "zh": "成名之战，对方前锋单刀杀到，全世界都在看你……",
         "en": "Your breakout match — a striker bears down one-on-one, the world watching…"
@@ -11,21 +13,40 @@
       "choices": [
         {
           "id": "sweeper",
-          "label": { "zh": "鬼魅出击，把球和人一起没收", "en": "Rush out and smother ball and man together" },
-          "tag": { "zh": "门卫", "en": "Sweeper-keeper" },
-          "note": { "zh": "致敬诺伊尔", "en": "Homage: Neuer" },
-          "effect": { "composure": 1, "flair": 0.5 }
+          "label": {
+            "zh": "鬼魅出击，把球和人一起没收",
+            "en": "Rush out and smother ball and man together"
+          },
+          "note": {
+            "zh": "弃门出击、像清道夫一样冲出禁区解围 —— 致敬「门卫」诺伊尔",
+            "en": "Rushing out to sweep up behind the defence like a libero — homage to 'sweeper-keeper' Neuer"
+          },
+          "effect": {
+            "composure": 1,
+            "flair": 0.5
+          }
         },
         {
           "id": "angle",
-          "label": { "zh": "稳稳封住角度，化解必进球", "en": "Hold your angle, calmly deny a certain goal" },
-          "effect": { "composure": 1, "flair": -0.3 }
+          "label": {
+            "zh": "稳稳封住角度，化解必进球",
+            "en": "Hold your angle, calmly deny a certain goal"
+          },
+          "effect": {
+            "composure": 1,
+            "flair": -0.3
+          }
         },
         {
           "id": "rush",
-          "label": { "zh": "弃门狂奔到中线……球被吊进空门", "en": "Sprint to halfway… and get lobbed into your empty net" },
-          "tag": { "zh": "整活", "en": "Troll" },
-          "effect": { "composure": -1, "flair": 1 }
+          "label": {
+            "zh": "弃门狂奔到中线……球被吊进空门",
+            "en": "Sprint to halfway… and get lobbed into your empty net"
+          },
+          "effect": {
+            "composure": -1,
+            "flair": 1
+          }
         }
       ]
     },
@@ -37,28 +58,56 @@
       "choices": [
         {
           "id": "solo",
-          "label": { "zh": "带球连过五人吊射空门", "en": "Dribble past five and dink it in" },
-          "tag": { "zh": "致敬", "en": "Homage" },
-          "note": { "zh": "致敬马拉多纳 / 梅西的世纪进球", "en": "The Goal of the Century — Maradona / Messi" },
-          "effect": { "talent": 1.5, "flair": 1 }
+          "label": {
+            "zh": "带球连过五人吊射空门",
+            "en": "Dribble past five and dink it in"
+          },
+          "note": {
+            "zh": "致敬马拉多纳 / 梅西的世纪进球",
+            "en": "The Goal of the Century — Maradona / Messi"
+          },
+          "effect": {
+            "talent": 1.5,
+            "flair": 1
+          }
         },
         {
           "id": "assist",
-          "label": { "zh": "一脚长传助攻队友，不抢风头", "en": "A first-time long ball to set up a teammate" },
-          "effect": { "talent": 0.3, "flair": -1, "loyalty": 0.5 }
+          "label": {
+            "zh": "一脚长传助攻队友，不抢风头",
+            "en": "A first-time long ball to set up a teammate"
+          },
+          "effect": {
+            "talent": 0.3,
+            "flair": -1,
+            "loyalty": 0.5
+          }
         },
         {
           "id": "joga",
-          "label": { "zh": "油炸丸子+彩虹过人，过了就完事、不射", "en": "Nutmegs and rainbow flicks — beat them all, then don't shoot" },
-          "tag": { "zh": "快乐足球", "en": "Joga bonito" },
-          "note": { "zh": "致敬罗纳尔迪尼奥", "en": "Homage: Ronaldinho" },
-          "effect": { "flair": 1.5, "talent": 0.5 }
+          "label": {
+            "zh": "油炸丸子+彩虹过人，过了就完事、不射",
+            "en": "Nutmegs and rainbow flicks — beat them all, then don't shoot"
+          },
+          "note": {
+            "zh": "「油炸丸子」「彩虹过人」都是华丽的炫技过人动作 —— 致敬快乐足球的罗纳尔迪尼奥",
+            "en": "Elastico and rainbow flicks — flashy show-off dribbles — homage to joga-bonito Ronaldinho"
+          },
+          "effect": {
+            "flair": 1.5,
+            "talent": 0.5
+          }
         },
         {
           "id": "blooper",
-          "label": { "zh": "过了五个，第六个把球捅出底线，喜提五大囧", "en": "Beat five, then poke it out for a throw-in. Blooper reel." },
-          "tag": { "zh": "整活", "en": "Troll" },
-          "effect": { "composure": -1, "flair": 0.5 }
+          "label": {
+            "zh": "过了五个，第六个把球捅出底线，喜提五大囧",
+            "en": "Beat five, then poke it out for a throw-in. Blooper reel."
+          },
+          "effect": {
+            "composure": -1,
+            "flair": 0.5
+          }
         }
       ]
     }

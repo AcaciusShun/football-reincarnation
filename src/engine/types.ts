@@ -28,9 +28,7 @@ export interface Condition {
 export interface Choice {
   id: string
   label: LocalizedText
-  /** short tag, e.g. 致敬 / 整活 */
-  tag?: LocalizedText
-  /** flavour shown after picking, e.g. "致敬马拉多纳 1986" */
+  /** Opt-in explanation (jargon + homage), revealed on demand and recapped at the end. */
   note?: LocalizedText
   effect?: Partial<Vec>
   setRole?: Role
@@ -81,6 +79,8 @@ export interface GameState {
   role: Role | null
   flags: string[]
   step: number
-  /** chosen choice ids, for recap / sharing */
+  /** chosen choice ids */
   history: string[]
+  /** explanations (homages) of chosen choices, for the end-of-run recap */
+  moments: LocalizedText[]
 }

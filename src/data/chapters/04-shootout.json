@@ -3,7 +3,9 @@
   "seq": 4,
   "variants": [
     {
-      "when": { "flag": "cheater" },
+      "when": {
+        "flag": "cheater"
+      },
       "text": {
         "zh": "决赛点球大战，又一个『偷鸡』的机会摆在面前——尝过甜头的你……",
         "en": "The final shootout. Another chance to bend the rules — and you've tasted it before…"
@@ -11,21 +13,41 @@
       "choices": [
         {
           "id": "mindgames",
-          "label": { "zh": "心理战拉满、提前半步移位，扑出制胜点球", "en": "Mind-games maxed, edge off your line, save the decisive kick" },
-          "effect": { "guile": 1, "composure": 1, "flair": 0.5 }
+          "label": {
+            "zh": "心理战拉满、提前半步移位，扑出制胜点球",
+            "en": "Mind-games maxed, edge off your line, save the decisive kick"
+          },
+          "effect": {
+            "guile": 1,
+            "composure": 1,
+            "flair": 0.5
+          }
         },
         {
           "id": "panenka",
-          "label": { "zh": "勺子吊射帕年卡，把全世界耍了", "en": "A Panenka — chip the lot of them" },
-          "tag": { "zh": "致敬", "en": "Homage" },
-          "note": { "zh": "致敬帕年卡 / 皮尔洛", "en": "Panenka / Pirlo" },
-          "effect": { "flair": 1.5, "composure": 1 }
+          "label": {
+            "zh": "勺子吊射帕年卡，把全世界耍了",
+            "en": "A Panenka — chip the lot of them"
+          },
+          "note": {
+            "zh": "「帕年卡」：罚点球时轻轻一勺把球吊进球门中路、戏耍门将 —— 致敬帕年卡与皮尔洛",
+            "en": "A 'Panenka' — softly chipping the penalty down the middle to fool the keeper — homage to Panenka & Pirlo"
+          },
+          "effect": {
+            "flair": 1.5,
+            "composure": 1
+          }
         },
         {
           "id": "caught",
-          "label": { "zh": "手又痒了，结果这次被 VAR 抓个正着", "en": "Your hand twitches again — VAR catches you red-handed" },
-          "tag": { "zh": "整活", "en": "Troll" },
-          "effect": { "guile": 1, "composure": -1 }
+          "label": {
+            "zh": "手又痒了，结果这次被 VAR 抓个正着",
+            "en": "Your hand twitches again — VAR catches you red-handed"
+          },
+          "effect": {
+            "guile": 1,
+            "composure": -1
+          }
         }
       ]
     },
@@ -37,28 +59,52 @@
       "choices": [
         {
           "id": "me",
-          "label": { "zh": "我来。把球稳稳放上点球点", "en": "Me. You plant the ball on the spot" },
-          "effect": { "composure": 1.5 }
+          "label": {
+            "zh": "我来。把球稳稳放上点球点",
+            "en": "Me. You plant the ball on the spot"
+          },
+          "effect": {
+            "composure": 1.5
+          }
         },
         {
           "id": "panenka",
-          "label": { "zh": "勺子吊射帕年卡，优雅致命", "en": "A Panenka — elegant and ruthless" },
-          "tag": { "zh": "致敬", "en": "Homage" },
-          "note": { "zh": "致敬帕年卡 / 皮尔洛", "en": "Panenka / Pirlo" },
-          "effect": { "flair": 1.5, "composure": 1 }
+          "label": {
+            "zh": "勺子吊射帕年卡，优雅致命",
+            "en": "A Panenka — elegant and ruthless"
+          },
+          "note": {
+            "zh": "「帕年卡」：罚点球时轻轻一勺把球吊进球门中路、戏耍门将 —— 致敬帕年卡与皮尔洛",
+            "en": "A 'Panenka' — softly chipping the penalty down the middle to fool the keeper — homage to Panenka & Pirlo"
+          },
+          "effect": {
+            "flair": 1.5,
+            "composure": 1
+          }
         },
         {
           "id": "shoelace",
-          "label": { "zh": "我……我先系个鞋带", "en": "I'll… just tie my boots first" },
-          "tag": { "zh": "整活", "en": "Troll" },
-          "effect": { "composure": -1 }
+          "label": {
+            "zh": "我……我先系个鞋带",
+            "en": "I'll… just tie my boots first"
+          },
+          "effect": {
+            "composure": -1
+          }
         },
         {
           "id": "moon",
-          "label": { "zh": "大力轰向月球，球迷集体上天台", "en": "Blast it into orbit. The fans head for the rooftop." },
-          "tag": { "zh": "整活", "en": "Troll" },
-          "note": { "zh": "致敬巴乔 1994", "en": "Baggio, 1994" },
-          "effect": { "composure": -1.5 }
+          "label": {
+            "zh": "大力轰向月球，球迷集体上天台",
+            "en": "Blast it into orbit. The fans head for the rooftop."
+          },
+          "note": {
+            "zh": "把点球大力打飞冲天 —— 致敬巴乔在 1994 年世界杯决赛罚丢的那记点球",
+            "en": "Skying the penalty into orbit — Baggio's miss in the 1994 World Cup final"
+          },
+          "effect": {
+            "composure": -1.5
+          }
         }
       ]
     }

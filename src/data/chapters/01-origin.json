@@ -10,28 +10,50 @@
       "choices": [
         {
           "id": "slum",
-          "label": { "zh": "贫民窟的铁皮球场，光脚也能颠球三百下", "en": "A shanty-town cage, juggling 300 times barefoot" },
-          "tag": { "zh": "天选", "en": "Gifted" },
-          "effect": { "talent": 1, "flair": 0.5 },
+          "label": {
+            "zh": "贫民窟的铁皮球场，光脚也能颠球三百下",
+            "en": "A shanty-town cage, juggling 300 times barefoot"
+          },
+          "effect": {
+            "talent": 1,
+            "flair": 0.5
+          },
           "setRole": "FW"
         },
         {
           "id": "academy",
-          "label": { "zh": "足球学校，魔鬼训练加练到关灯", "en": "An academy, training till they cut the lights" },
-          "tag": { "zh": "卷王", "en": "Grinder" },
-          "effect": { "talent": -1, "composure": 0.5 },
+          "label": {
+            "zh": "足球学校，魔鬼训练加练到关灯",
+            "en": "An academy, training till they cut the lights"
+          },
+          "effect": {
+            "talent": -1,
+            "composure": 0.5
+          },
           "setRole": "MF"
         },
         {
           "id": "keeper",
-          "label": { "zh": "没人想站门里，那我来", "en": "Nobody wanted to go in goal, so… me" },
-          "effect": { "composure": 0.5, "flair": -0.3 },
+          "label": {
+            "zh": "没人想站门里，那我来",
+            "en": "Nobody wanted to go in goal, so… me"
+          },
+          "effect": {
+            "composure": 0.5,
+            "flair": -0.3
+          },
           "setRole": "GK"
         },
         {
           "id": "wall",
-          "label": { "zh": "人高马大，教练让我站后面别乱跑", "en": "Big and tall — coach said stay at the back" },
-          "effect": { "composure": 0.3, "flair": -0.2 },
+          "label": {
+            "zh": "人高马大，教练让我站后面别乱跑",
+            "en": "Big and tall — coach said stay at the back"
+          },
+          "effect": {
+            "composure": 0.3,
+            "flair": -0.2
+          },
           "setRole": "DF"
         }
       ]

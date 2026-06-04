@@ -10,28 +10,55 @@
       "choices": [
         {
           "id": "hand",
-          "label": { "zh": "用手把球拍进，赛后说『这是上帝之手』", "en": "Punch it in, then call it 'the Hand of God'" },
-          "tag": { "zh": "致敬", "en": "Homage" },
-          "note": { "zh": "致敬马拉多纳 1986", "en": "Maradona, 1986" },
-          "effect": { "guile": 1.5, "flair": 0.5 },
+          "label": {
+            "zh": "用手把球拍进，赛后说『这是上帝之手』",
+            "en": "Punch it in, then call it 'the Hand of God'"
+          },
+          "note": {
+            "zh": "用手把球打进、却假装是头球破门 —— 致敬马拉多纳 1986 年的「上帝之手」",
+            "en": "Punch it in but claim it was a header — Maradona's 1986 'Hand of God'"
+          },
+          "effect": {
+            "guile": 1.5,
+            "flair": 0.5
+          },
           "setFlag": "cheater"
         },
         {
           "id": "honest",
-          "label": { "zh": "老实承认手球，绅士风度", "en": "Own up to the handball — pure sportsmanship" },
-          "effect": { "guile": -1.5 }
+          "label": {
+            "zh": "老实承认手球，绅士风度",
+            "en": "Own up to the handball — pure sportsmanship"
+          },
+          "effect": {
+            "guile": -1.5
+          }
         },
         {
           "id": "header",
-          "label": { "zh": "我用头，干干净净顶进去", "en": "Use your head — clean as you like" },
-          "effect": { "guile": -0.3, "composure": 0.5 }
+          "label": {
+            "zh": "我用头，干干净净顶进去",
+            "en": "Use your head — clean as you like"
+          },
+          "effect": {
+            "guile": -0.3,
+            "composure": 0.5
+          }
         },
         {
           "id": "bite",
-          "label": { "zh": "情急之下，咬了对方后卫一口", "en": "Panic and… bite a defender" },
-          "tag": { "zh": "整活", "en": "Troll" },
-          "note": { "zh": "致敬苏神", "en": "Homage: Suárez" },
-          "effect": { "guile": 1, "composure": -0.5 },
+          "label": {
+            "zh": "情急之下，咬了对方后卫一口",
+            "en": "Panic and… bite a defender"
+          },
+          "note": {
+            "zh": "急眼了咬对手一口 —— 致敬苏亚雷斯（生涯真的咬过三次）",
+            "en": "Losing it and biting an opponent — homage to Suárez (who really did it three times)"
+          },
+          "effect": {
+            "guile": 1,
+            "composure": -0.5
+          },
           "setFlag": "biter"
         }
       ]

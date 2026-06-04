@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import type { Chapter, Choice, GameState } from '../engine/types'
 import { pickVariant } from '../engine/story'
 import { useI18n } from '../i18n'
@@ -10,9 +11,21 @@ interface Props {
 }
 
 export default function Scene({ chapter, state, total, onChoose }: Props) {
-  const { tx } = useI18n()
+  const { t, tx } = useI18n()
+  const [revealed, setRevealed] = useState<Set<string>>(new Set())
+  // reset the "what's this?" reveals whenever the scene changes
+  useEffect(() => setRevealed(new Set()), [state.step])
+
   const variant = pickVariant(chapter, state)
   if (!variant) return null
+
+  const toggle = (id: string) =>
+    setRevealed((prev) => {
+      const next = new Set(prev)
+      if (next.has(id)) next.delete(id)
+      else next.add(id)
+      return next
+    })
 
   return (
     <section className="mx-auto max-w-xl px-6 py-10">
@@ -27,21 +40,24 @@ export default function Scene({ chapter, state, total, onChoose }: Props) {
 
       <div className="space-y-3">
         {variant.choices.map((c) => (
-          <button
-            key={c.id}
-            onClick={() => onChoose(c)}
-            className="block w-full rounded-2xl border-2 border-neutral-200 px-5 py-4 text-left transition hover:border-pitch hover:bg-pitch/5 active:scale-[0.99]"
-          >
-            <div className="flex items-start gap-2">
-              {c.tag && (
-                <span className="mt-1 shrink-0 rounded-full bg-pitch/10 px-2 py-0.5 text-xs text-pitch-dark">{tx(c.tag)}</span>
-              )}
-              <div>
-                <div className="text-lg text-neutral-900">{tx(c.label)}</div>
-                {c.note && <div className="mt-0.5 text-xs text-neutral-400">{tx(c.note)}</div>}
-              </div>
-            </div>
-          </button>
+          <div key={c.id} className="overflow-hidden rounded-2xl border-2 border-neutral-200 transition hover:border-pitch">
+            <button
+              onClick={() => onChoose(c)}
+              className={`block w-full px-5 pt-4 text-left text-lg text-neutral-900 transition hover:bg-pitch/5 ${
+                c.note ? 'pb-2' : 'pb-4'
+              }`}
+            >
+              {tx(c.label)}
+            </button>
+            {c.note && (
+              <button
+                onClick={() => toggle(c.id)}
+                className="block w-full px-5 pb-3 text-left text-xs leading-relaxed text-neutral-400 transition hover:text-pitch"
+              >
+                {revealed.has(c.id) ? `💡 ${tx(c.note)}` : t('whatsThis')}
+              </button>
+            )}
+          </div>
         ))}
       </div>
     </section>

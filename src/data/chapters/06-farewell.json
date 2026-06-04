@@ -3,7 +3,11 @@
   "seq": 6,
   "variants": [
     {
-      "when": { "axisMin": { "loyalty": 1 } },
+      "when": {
+        "axisMin": {
+          "loyalty": 1
+        }
+      },
       "text": {
         "zh": "35 岁，黄昏将至。忠诚如你，谢幕方式是……",
         "en": "35, dusk falling. Loyal to the last, you bow out by…"
@@ -11,13 +15,24 @@
       "choices": [
         {
           "id": "homecaptain",
-          "label": { "zh": "回到母队，以队长身份退役，全场起立", "en": "Return home, retire as captain, the whole stadium rising" },
-          "effect": { "loyalty": 1, "composure": 0.5 }
+          "label": {
+            "zh": "回到母队，以队长身份退役，全场起立",
+            "en": "Return home, retire as captain, the whole stadium rising"
+          },
+          "effect": {
+            "loyalty": 1,
+            "composure": 0.5
+          }
         },
         {
           "id": "peak",
-          "label": { "zh": "巅峰急流勇退，留下完美背影", "en": "Walk away at your peak, a perfect silhouette" },
-          "effect": { "composure": 0.5 }
+          "label": {
+            "zh": "巅峰急流勇退，留下完美背影",
+            "en": "Walk away at your peak, a perfect silhouette"
+          },
+          "effect": {
+            "composure": 0.5
+          }
         }
       ]
     },
@@ -29,21 +44,39 @@
       "choices": [
         {
           "id": "evergreen",
-          "label": { "zh": "战至 40 岁，还在五大联赛进球", "en": "Play till 40, still scoring in a top league" },
-          "tag": { "zh": "常青", "en": "Evergreen" },
-          "note": { "zh": "致敬伊布 / C罗", "en": "Ibrahimović / Ronaldo" },
-          "effect": { "talent": -0.5, "flair": 1 }
+          "label": {
+            "zh": "战至 40 岁，还在五大联赛进球",
+            "en": "Play till 40, still scoring in a top league"
+          },
+          "note": {
+            "zh": "致敬伊布 / C罗",
+            "en": "Ibrahimović / Ronaldo"
+          },
+          "effect": {
+            "talent": -0.5,
+            "flair": 1
+          }
         },
         {
           "id": "peak",
-          "label": { "zh": "巅峰急流勇退，留下完美背影", "en": "Walk away at your peak, a perfect silhouette" },
-          "effect": { "composure": 0.5 }
+          "label": {
+            "zh": "巅峰急流勇退，留下完美背影",
+            "en": "Walk away at your peak, a perfect silhouette"
+          },
+          "effect": {
+            "composure": 0.5
+          }
         },
         {
           "id": "retirement-league",
-          "label": { "zh": "去远方联赛养老，顺便领一份高薪", "en": "Cash a fat cheque winding down in a faraway league" },
-          "tag": { "zh": "整活", "en": "Troll" },
-          "effect": { "loyalty": -0.5, "composure": -0.3 }
+          "label": {
+            "zh": "去远方联赛养老，顺便领一份高薪",
+            "en": "Cash a fat cheque winding down in a faraway league"
+          },
+          "effect": {
+            "loyalty": -0.5,
+            "composure": -0.3
+          }
         }
       ]
     }

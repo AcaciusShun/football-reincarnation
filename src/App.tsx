@@ -70,7 +70,9 @@ function Shell() {
         {phase === 'play' && (
           <Scene chapter={CHAPTERS[state.step]} state={state} total={CHAPTERS.length} onChoose={choose} />
         )}
-        {phase === 'result' && outcome && <Result outcome={outcome} onRestart={restart} />}
+        {phase === 'result' && outcome && (
+          <Result outcome={outcome} moments={state.moments} onRestart={restart} />
+        )}
       </main>
 
       <footer className="py-6 text-center text-xs text-neutral-400">

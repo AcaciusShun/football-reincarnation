@@ -10,28 +10,54 @@
       "choices": [
         {
           "id": "oneclub",
-          "label": { "zh": "一人一城，名字刻进队史", "en": "One club, one life — carve your name into its history" },
-          "tag": { "zh": "致敬", "en": "Homage" },
-          "note": { "zh": "致敬托蒂 / 马尔蒂尼", "en": "Totti / Maldini" },
-          "effect": { "loyalty": 1.5 }
+          "label": {
+            "zh": "一人一城，名字刻进队史",
+            "en": "One club, one life — carve your name into its history"
+          },
+          "note": {
+            "zh": "致敬托蒂 / 马尔蒂尼",
+            "en": "Totti / Maldini"
+          },
+          "effect": {
+            "loyalty": 1.5
+          }
         },
         {
           "id": "trophies",
-          "label": { "zh": "去赢冠军，职业生涯只有一次", "en": "Chase the trophies — you only get one career" },
-          "effect": { "loyalty": -1, "composure": 0.5 }
+          "label": {
+            "zh": "去赢冠军，职业生涯只有一次",
+            "en": "Chase the trophies — you only get one career"
+          },
+          "effect": {
+            "loyalty": -1,
+            "composure": 0.5
+          }
         },
         {
           "id": "ibra",
-          "label": { "zh": "周游列国，巴黎米兰曼联踢一遍、顺便放狂言", "en": "Tour the world — Paris, Milan, Manchester — dropping quotes everywhere" },
-          "tag": { "zh": "致敬", "en": "Homage" },
-          "note": { "zh": "致敬伊布", "en": "Ibrahimović" },
-          "effect": { "loyalty": -1.5, "flair": 1.5 }
+          "label": {
+            "zh": "周游列国，巴黎米兰曼联踢一遍、顺便放狂言",
+            "en": "Tour the world — Paris, Milan, Manchester — dropping quotes everywhere"
+          },
+          "note": {
+            "zh": "致敬伊布",
+            "en": "Ibrahimović"
+          },
+          "effect": {
+            "loyalty": -1.5,
+            "flair": 1.5
+          }
         },
         {
           "id": "freeloader",
-          "label": { "zh": "自由身赚一笔签字费，再想办法转回来", "en": "Leave on a free for the bonus, then angle to come back" },
-          "tag": { "zh": "整活", "en": "Troll" },
-          "effect": { "loyalty": -1, "guile": 1 }
+          "label": {
+            "zh": "自由身赚一笔签字费，再想办法转回来",
+            "en": "Leave on a free for the bonus, then angle to come back"
+          },
+          "effect": {
+            "loyalty": -1,
+            "guile": 1
+          }
         }
       ]
     }

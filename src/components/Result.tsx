@@ -1,3 +1,4 @@
+import type { LocalizedText } from '../engine/types'
 import type { Outcome } from '../engine/outcome'
 import { encodeOutcome } from '../engine/share'
 import { useI18n } from '../i18n'
@@ -5,10 +6,11 @@ import ShareBar from './ShareBar'
 
 interface Props {
   outcome: Outcome
+  moments: LocalizedText[]
   onRestart: () => void
 }
 
-export default function Result({ outcome, onRestart }: Props) {
+export default function Result({ outcome, moments, onRestart }: Props) {
   const { t, tx, locale } = useI18n()
 
   const name = outcome.kind === 'legend' ? tx(outcome.legend.name) : tx(outcome.ending.title)
@@ -56,6 +58,20 @@ export default function Result({ outcome, onRestart }: Props) {
             “{tx(outcome.ending.quote)}”
           </blockquote>
         </>
+      )}
+
+      {moments.length > 0 && (
+        <div className="mt-10 rounded-2xl bg-neutral-100 p-5 text-left">
+          <h2 className="mb-3 text-xs font-semibold uppercase tracking-wide text-neutral-500">{t('momentsTitle')}</h2>
+          <ul className="space-y-2 text-sm text-neutral-600">
+            {moments.map((m, i) => (
+              <li key={i} className="flex gap-2">
+                <span className="shrink-0">💡</span>
+                <span>{tx(m)}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
       )}
 
       <ShareBar url={shareUrl} text={shareText} />

@@ -10,11 +10,15 @@ self-aware failure (气急败坏), kept affectionate and non-offensive.
 
 ## The choice anatomy (where the fun is)
 
-Every choice menu mixes three flavours so the emotional range is built-in:
+Every choice menu still mixes three flavours — a heroic line, a homage that
+re-creates a real moment, and a troll pick that feeds an extreme axis toward a
+meme ending — but they are **not labelled** in the UI, so the "joke" option isn't
+telegraphed and immersion holds.
 
-- 🦸 **Hero line** — the heroic/badass pick (feeds the "greatness" axes).
-- 😏 **Homage** — re-creates a real moment; `note` names it (the wink).
-- 🤡 **Troll** — feeds an extreme axis → routes you toward a meme ending.
+Instead, a homage/jargon choice carries an opt-in `note` (a "💡 这是什么？" toggle)
+that explains the move in plain language *and* names the homage on demand — legible
+for newcomers, a wink for fans. The moments you recreated are then **recapped on the
+result page** ("你重现的名场面") for the payoff.
 
 ## Axes (hidden)
 

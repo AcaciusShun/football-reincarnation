@@ -3,7 +3,14 @@ import { AXIS_IDS, zeroVec } from './axes'
 
 const clamp = (x: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, x))
 
-export const initState = (): GameState => ({ vec: zeroVec(), role: null, flags: [], step: 0, history: [] })
+export const initState = (): GameState => ({
+  vec: zeroVec(),
+  role: null,
+  flags: [],
+  step: 0,
+  history: [],
+  moments: [],
+})
 
 /** Does the current state satisfy a condition? (used for variants and endings) */
 export function condMet(c: Condition | undefined, s: GameState): boolean {
@@ -34,5 +41,6 @@ export function applyChoice(s: GameState, choice: Choice): GameState {
     flags: choice.setFlag && !s.flags.includes(choice.setFlag) ? [...s.flags, choice.setFlag] : s.flags,
     step: s.step + 1,
     history: [...s.history, choice.id],
+    moments: choice.note ? [...s.moments, choice.note] : s.moments,
   }
 }
