@@ -1,0 +1,49 @@
+{
+  "id": "look",
+  "seq": 3,
+  "variants": [
+    {
+      "text": {
+        "zh": "新赛季媒体日，发型师把镜子转向你：「这赛季，想要什么造型？」",
+        "en": "Media day. The stylist spins the mirror toward you: 'What look are we going for this season?'"
+      },
+      "choices": [
+        {
+          "id": "mohawk",
+          "label": { "zh": "莫西干配一身花臂，越骚状态越好", "en": "A mohawk and full sleeve tattoos — the louder the better" },
+          "note": { "zh": "把造型玩成个人品牌 —— 致敬贝克汉姆、巴洛特利", "en": "Turning your look into a brand — Beckham, Balotelli" },
+          "background": {
+            "zh": "贝克汉姆、巴洛特利等人把发型与造型玩成了个人品牌，每次亮相都是头条。",
+            "en": "Players like Beckham and Balotelli made their hair and style a personal brand — every appearance a headline."
+          },
+          "effect": { "flair": 1.5 }
+        },
+        {
+          "id": "afro",
+          "label": { "zh": "顶一个 2002 年大罗的「阿福头」", "en": "Rock Ronaldo's 2002 'little fin' haircut" },
+          "note": { "zh": "致敬大罗 2002 年世界杯的标志发型", "en": "R9's iconic 2002 World Cup haircut" },
+          "background": {
+            "zh": "2002 年世界杯，罗纳尔多顶着标志性的「阿福头」夺冠并斩获金靴，成为一代人的记忆。",
+            "en": "At the 2002 World Cup, Ronaldo won the title and the Golden Boot sporting that unmistakable haircut — a generation's memory."
+          },
+          "effect": { "flair": 1, "talent": 0.3 }
+        },
+        {
+          "id": "blonde",
+          "label": { "zh": "怂恿全队一起染金毛，就为了好认", "en": "Talk the whole squad into going blond — easier to spot" },
+          "note": { "zh": "致敬 1998 年罗马尼亚全队染金发", "en": "Romania's whole-team dye job, 1998" },
+          "background": {
+            "zh": "1998 年世界杯，罗马尼亚全队在淘汰赛前集体染成金发，成了足坛最欢乐的名场面之一。",
+            "en": "Before the 1998 knockouts, the entire Romania squad dyed their hair blond — one of football's most joyful sights."
+          },
+          "effect": { "flair": 0.5 }
+        },
+        {
+          "id": "buzzcut",
+          "label": { "zh": "锃亮板寸，省事，专注踢球", "en": "A clean buzzcut — low-maintenance, all focus" },
+          "effect": { "flair": -0.5, "composure": 0.5 }
+        }
+      ]
+    }
+  ]
+}
