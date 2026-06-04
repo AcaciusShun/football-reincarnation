@@ -1,0 +1,11 @@
+{
+  "id": "beckenbauer",
+  "name": { "zh": "弗朗茨·贝肯鲍尔", "en": "Franz Beckenbauer" },
+  "role": "DF",
+  "vec": { "talent": 0.7, "guile": 0.1, "loyalty": 0.6, "composure": 0.9, "flair": 0.5 },
+  "title": { "zh": "足球皇帝", "en": "Der Kaiser" },
+  "moment": { "zh": "开创「自由人」战术，从容地从后场指挥全局；以球员和主帅双重身份捧起世界杯。", "en": "Invented the libero role, conducting from the back with total composure; won the World Cup as both player and manager." },
+  "quote": { "zh": "优雅，是后卫的最高境界。", "en": "Elegance is a defender's highest art." },
+  "nicknames": [{ "text": { "zh": "足球皇帝", "en": "Der Kaiser" } }],
+  "honors": [{ "zh": "世界杯冠军（球员 1974 · 主帅 1990）", "en": "World Cup winner (player 1974 · coach 1990)" }]
+}

@@ -36,8 +36,8 @@ add a file:
 
 | Add a… | File | Shape |
 | --- | --- | --- |
-| Chapter | `src/data/chapters/NN-id.json` | `{ id, seq, variants: [{ when?, text, choices: [{ id, label, effect?, setRole?, setFlag?, note? }] }] }` |
-| Legend | `src/data/legends/id.json` | `{ id, name, role, vec, title, moment, quote, honors? }` |
+| Chapter | `src/data/chapters/NN-id.json` | `{ id, seq, variants: [{ when?, text, choices: [{ id, label, effect?, setRole?, setFlag?, note?, background?, flop? }] }] }` |
+| Legend | `src/data/legends/id.json` | `{ id, name, role, vec, title, moment, quote, nicknames?, honors? }` |
 | Meme ending | `src/data/endings/id.json` | `{ id, title, blurb, quote, when, priority? }` |
 
 A **`when`** condition supports `role`, `flag`, `notFlag`, `axisMin`, `axisMax`

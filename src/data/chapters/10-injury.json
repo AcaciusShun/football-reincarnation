@@ -1,0 +1,67 @@
+{
+  "id": "injury",
+  "seq": 10,
+  "variants": [
+    {
+      "text": {
+        "zh": "巅峰期一次重伤，主刀医生摇了摇头：「你可能……再也回不到从前了。」",
+        "en": "A serious injury at your peak. The surgeon shakes his head: 'You may… never be the same again.'"
+      },
+      "choices": [
+        {
+          "id": "comeback",
+          "label": {
+            "zh": "魔鬼般的复健，我一定王者归来",
+            "en": "Punishing rehab — you will come back stronger"
+          },
+          "note": {
+            "zh": "致敬大罗两次重伤后的王者归来",
+            "en": "Ronaldo's comebacks from two career-threatening injuries"
+          },
+          "background": {
+            "zh": "大罗两次膝盖重伤几乎断送生涯，却两度王者归来，并在 2002 年世界杯加冕——足坛最励志的复出之一。",
+            "en": "Ronaldo's two devastating knee injuries nearly ended his career; he came back twice and was crowned at the 2002 World Cup — one of football's great comebacks."
+          },
+          "effect": {
+            "composure": 1.5,
+            "talent": -0.3
+          }
+        },
+        {
+          "id": "adapt",
+          "label": {
+            "zh": "改打更省力的位置，用智慧延长生涯",
+            "en": "Drop into an easier role and extend your career with guile"
+          },
+          "effect": {
+            "talent": 0.3,
+            "composure": 0.5
+          }
+        },
+        {
+          "id": "fragile",
+          "label": {
+            "zh": "从此一蹶不振，状态再也没回来",
+            "en": "Never recover — the form simply never returns"
+          },
+          "effect": {
+            "composure": -1.5
+          },
+          "flop": true
+        },
+        {
+          "id": "winery",
+          "label": {
+            "zh": "算了，直接退役，回家开个酒庄",
+            "en": "Forget it — retire early and open a vineyard"
+          },
+          "effect": {
+            "loyalty": -0.3,
+            "composure": -0.5
+          },
+          "flop": true
+        }
+      ]
+    }
+  ]
+}

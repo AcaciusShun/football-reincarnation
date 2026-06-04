@@ -10,6 +10,7 @@ export const initState = (): GameState => ({
   step: 0,
   history: [],
   moments: [],
+  flops: [],
 })
 
 /** Does the current state satisfy a condition? (used for variants and endings) */
@@ -44,5 +45,6 @@ export function applyChoice(s: GameState, choice: Choice): GameState {
     moments: choice.note
       ? [...s.moments, { note: choice.note, background: choice.background }]
       : s.moments,
+    flops: choice.flop ? [...s.flops, choice.label] : s.flops,
   }
 }

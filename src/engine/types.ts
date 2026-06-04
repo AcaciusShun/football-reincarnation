@@ -35,6 +35,8 @@ export interface Choice {
   effect?: Partial<Vec>
   setRole?: Role
   setFlag?: string
+  /** Marks a 作死 (troll / blunder) choice — collected for the meme-ending recap. */
+  flop?: boolean
 }
 
 export interface Variant {
@@ -92,6 +94,8 @@ export interface GameState {
   history: string[]
   /** homages of chosen choices (note + background), for the end-of-run recap */
   moments: Moment[]
+  /** labels of 作死 choices, for the blunder recap */
+  flops: LocalizedText[]
 }
 
 /** A recreated moment, accumulated for the result-page recap. */

@@ -73,9 +73,11 @@ glob-loaded). All text is bilingual with a fallback.
 
 ## v1 scope
 
-11 chapters (career beats plus lighter personality scenes — look, superstition,
-interview), 16 legends across all four roles, and 8 meme endings for the troll
-paths. Designed to expand by dropping in JSON — see the README's scenario-bank table.
+14 chapters (career beats plus lighter personality scenes — look, superstition,
+interview), 20 legends across all four roles, and 8 meme endings for the troll
+paths. Legend endings recap the homages you recreated ("你重现的名场面"); troll
+choices (`flop`) are recapped separately ("你的作死名场面"). Designed to expand by
+dropping in JSON — see the README's scenario-bank table.
 
 ## Tone & safety
 

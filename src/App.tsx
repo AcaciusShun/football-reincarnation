@@ -71,7 +71,7 @@ function Shell() {
           <Scene chapter={CHAPTERS[state.step]} state={state} total={CHAPTERS.length} onChoose={choose} />
         )}
         {phase === 'result' && outcome && (
-          <Result outcome={outcome} moments={state.moments} onRestart={restart} />
+          <Result outcome={outcome} moments={state.moments} flops={state.flops} onRestart={restart} />
         )}
       </main>
 

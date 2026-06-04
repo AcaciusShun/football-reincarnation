@@ -1,0 +1,14 @@
+{
+  "id": "xavi",
+  "name": { "zh": "哈维·埃尔南德斯", "en": "Xavi Hernández" },
+  "role": "MF",
+  "vec": { "talent": 0.6, "guile": -0.2, "loyalty": 0.8, "composure": 0.8, "flair": 0.2 },
+  "title": { "zh": "tiki-taka 的大脑", "en": "The Brain of Tiki-Taka" },
+  "moment": { "zh": "巴萨与西班牙传控王朝的节拍器，一脚一脚把对手传到崩溃，2010 年问鼎世界之巅。", "en": "The metronome of Barça and Spain's possession dynasty, passing opponents into oblivion on the way to the 2010 world title." },
+  "quote": { "zh": "足球，是用脑子思考，不是用腿奔跑。", "en": "Football is thought, not running." },
+  "nicknames": [{ "text": { "zh": "哈维", "en": "Xavi" } }],
+  "honors": [
+    { "zh": "世界杯冠军（2010）", "en": "World Cup winner (2010)" },
+    { "zh": "多座欧冠 · 2 届欧洲杯", "en": "Multiple Champions Leagues · 2× Euro" }
+  ]
+}

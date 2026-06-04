@@ -1,0 +1,68 @@
+{
+  "id": "lastgasp",
+  "seq": 4,
+  "variants": [
+    {
+      "text": {
+        "zh": "补时第 93 分钟，比分胶着，球鬼使神差地滚到你脚下，球门近在咫尺……",
+        "en": "93rd minute, scores level, and the ball somehow rolls to your feet with the goal gaping…"
+      },
+      "choices": [
+        {
+          "id": "ice",
+          "label": {
+            "zh": "屏住呼吸，冷静推射死角——绝杀！",
+            "en": "Hold your breath, slot it calmly into the corner — winner!"
+          },
+          "note": {
+            "zh": "致敬阿圭罗 2012 年 93:20 的绝杀夺冠",
+            "en": "Agüero's 93:20 title-winner, 2012"
+          },
+          "background": {
+            "zh": "2012 年英超最后一轮补时 93:20，阿圭罗为曼城打进绝杀，时隔 44 年夺得联赛冠军——解说那声「AGUEROOO」成为永恒。",
+            "en": "On the final day of 2012, at 93:20, Agüero scored to win Manchester City their first league title in 44 years — 'AGUEROOO' echoing forever."
+          },
+          "effect": {
+            "composure": 1.5
+          }
+        },
+        {
+          "id": "blast",
+          "label": {
+            "zh": "闭上眼睛大力轰门，把一切交给天意",
+            "en": "Shut your eyes, blast it, and leave the rest to fate"
+          },
+          "effect": {
+            "composure": -0.5,
+            "flair": 0.5
+          },
+          "flop": true
+        },
+        {
+          "id": "simfoul",
+          "label": {
+            "zh": "顺势倒地骗个点球，把责任交给十二码",
+            "en": "Go down, win a soft penalty, hand the pressure to the spot"
+          },
+          "effect": {
+            "guile": 1,
+            "composure": -0.3
+          },
+          "flop": true
+        },
+        {
+          "id": "square",
+          "label": {
+            "zh": "横敲给空位的队友，把荣誉让给他",
+            "en": "Square it to a teammate in space and gift him the glory"
+          },
+          "effect": {
+            "flair": -1,
+            "loyalty": 0.5,
+            "composure": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

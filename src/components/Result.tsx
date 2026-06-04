@@ -7,6 +7,7 @@ import ShareBar from './ShareBar'
 interface Props {
   outcome: Outcome
   moments: { note: LocalizedText; background?: LocalizedText }[]
+  flops: LocalizedText[]
   onRestart: () => void
 }
 
@@ -42,7 +43,7 @@ function Nicknames({ nicknames }: { nicknames: Nickname[] }) {
   )
 }
 
-export default function Result({ outcome, moments, onRestart }: Props) {
+export default function Result({ outcome, moments, flops, onRestart }: Props) {
   const { t, tx, locale } = useI18n()
 
   const name = outcome.kind === 'legend' ? tx(outcome.legend.name) : tx(outcome.ending.title)
@@ -107,6 +108,20 @@ export default function Result({ outcome, moments, onRestart }: Props) {
                   <span className="font-medium text-neutral-700">{tx(m.note)}</span>
                 </div>
                 {m.background && <p className="mt-1 pl-6 text-xs leading-relaxed text-neutral-500">{tx(m.background)}</p>}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {flops.length > 0 && (
+        <div className="mt-6 rounded-2xl bg-amber-50 p-5 text-left ring-1 ring-amber-100">
+          <h2 className="mb-3 text-xs font-semibold uppercase tracking-wide text-amber-700/70">{t('flopsTitle')}</h2>
+          <ul className="space-y-2 text-sm text-neutral-600">
+            {flops.map((f, i) => (
+              <li key={i} className="flex gap-2">
+                <span className="shrink-0">🤦</span>
+                <span>{tx(f)}</span>
               </li>
             ))}
           </ul>

@@ -1,6 +1,6 @@
 {
   "id": "shootout",
-  "seq": 6,
+  "seq": 7,
   "variants": [
     {
       "when": {
@@ -51,7 +51,8 @@
           "effect": {
             "guile": 1,
             "composure": -1
-          }
+          },
+          "flop": true
         }
       ]
     },
@@ -98,7 +99,8 @@
           },
           "effect": {
             "composure": -1
-          }
+          },
+          "flop": true
         },
         {
           "id": "moon",

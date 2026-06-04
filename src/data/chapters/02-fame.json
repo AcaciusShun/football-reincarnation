@@ -50,7 +50,8 @@
           "effect": {
             "composure": -1,
             "flair": 1
-          }
+          },
+          "flop": true
         }
       ]
     },
@@ -119,7 +120,8 @@
           "effect": {
             "composure": -1,
             "flair": 0.5
-          }
+          },
+          "flop": true
         }
       ]
     }

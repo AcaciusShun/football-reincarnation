@@ -1,6 +1,6 @@
 {
   "id": "celebration",
-  "seq": 9,
+  "seq": 12,
   "variants": [
     {
       "text": {
@@ -65,7 +65,8 @@
           "effect": {
             "flair": 1,
             "composure": -0.5
-          }
+          },
+          "flop": true
         }
       ]
     }

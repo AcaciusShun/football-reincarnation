@@ -1,0 +1,11 @@
+{
+  "id": "suarez",
+  "name": { "zh": "路易斯·苏亚雷斯", "en": "Luis Suárez" },
+  "role": "FW",
+  "vec": { "talent": 0.8, "guile": 1, "loyalty": -0.1, "composure": 0.7, "flair": 0.6 },
+  "title": { "zh": "争议的天才", "en": "The Genius & the Villain" },
+  "moment": { "zh": "禁区里嗅觉一流的杀手，也是三次咬人、门线手球的争议主角——天才与魔鬼共存。", "en": "A ruthless poacher's instinct — and three bites and a goal-line handball. Genius and villain in one." },
+  "quote": { "zh": "我踢球的方式，就是我自己。", "en": "The way I play is just… me." },
+  "nicknames": [{ "text": { "zh": "苏神", "en": "El Pistolero" } }, { "text": { "zh": "咬人狂魔", "en": "The Biter" }, "hei": true }],
+  "honors": [{ "zh": "美洲杯冠军 · 多座金靴", "en": "Copa América · multiple Golden Boots" }]
+}

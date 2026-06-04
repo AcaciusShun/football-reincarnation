@@ -1,0 +1,14 @@
+{
+  "id": "casillas",
+  "name": { "zh": "伊克尔·卡西利亚斯", "en": "Iker Casillas" },
+  "role": "GK",
+  "vec": { "talent": 0.4, "guile": -0.2, "loyalty": 0.7, "composure": 0.9, "flair": 0.2 },
+  "title": { "zh": "圣卡西", "en": "Saint Iker" },
+  "moment": { "zh": "2010 年世界杯决赛用一记神奇的脚挡扑出罗本单刀，门线上的圣人守护了西班牙的王座。", "en": "His miraculous toe-save on Robben in the 2010 final guarded Spain's throne — the saint on the goal line." },
+  "quote": { "zh": "门将的字典里，没有「放弃」。", "en": "There's no 'give up' in a goalkeeper's vocabulary." },
+  "nicknames": [{ "text": { "zh": "圣卡西", "en": "San Iker" } }],
+  "honors": [
+    { "zh": "世界杯冠军（2010）", "en": "World Cup winner (2010)" },
+    { "zh": "多座欧冠 · 2 届欧洲杯", "en": "Multiple Champions Leagues · 2× Euro" }
+  ]
+}

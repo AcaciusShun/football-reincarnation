@@ -1,0 +1,68 @@
+{
+  "id": "captaincy",
+  "seq": 8,
+  "variants": [
+    {
+      "text": {
+        "zh": "赛前，主教练把队长袖标递到你面前：「这支队，交给你了。」",
+        "en": "Before kickoff, the manager holds out the captain's armband: 'This team is yours now.'"
+      },
+      "choices": [
+        {
+          "id": "roar",
+          "label": {
+            "zh": "扛起整个更衣室，咆哮着把所有人点燃",
+            "en": "Carry the dressing room — roar everyone to life"
+          },
+          "note": {
+            "zh": "致敬卡恩、拉莫斯式的咆哮型领袖",
+            "en": "The roaring-leader mould — Kahn, Ramos"
+          },
+          "background": {
+            "zh": "卡恩、拉莫斯式的咆哮型队长，用气场与血性点燃全队，是更衣室的精神支柱。",
+            "en": "Roaring captains like Kahn and Ramos lit up their teams with sheer presence and fight — the soul of the dressing room."
+          },
+          "effect": {
+            "composure": 1,
+            "flair": 0.5
+          }
+        },
+        {
+          "id": "example",
+          "label": {
+            "zh": "话不多，用每一次拼抢和跑动带队",
+            "en": "Few words — lead with every tackle and every run"
+          },
+          "effect": {
+            "composure": 1,
+            "loyalty": 0.5
+          }
+        },
+        {
+          "id": "decline",
+          "label": {
+            "zh": "我只想踢好自己的，袖标给更合适的人",
+            "en": "I just want to play my game — give it to someone better suited"
+          },
+          "effect": {
+            "flair": -0.5,
+            "loyalty": 0.3
+          }
+        },
+        {
+          "id": "passbuck",
+          "label": {
+            "zh": "赢了是我带得好，输了是你们的锅",
+            "en": "If we win it's my leadership; if we lose it's on you lot"
+          },
+          "effect": {
+            "guile": 0.5,
+            "flair": 0.5,
+            "composure": -0.3
+          },
+          "flop": true
+        }
+      ]
+    }
+  ]
+}
